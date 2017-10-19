@@ -1,0 +1,1135 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-16 10:28:34
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 10:43:02
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 443196 */
+  src: url('http://at.alicdn.com/t/font_443196_hziz4pauo7uv7vi.eot');
+  src: url('http://at.alicdn.com/t/font_443196_hziz4pauo7uv7vi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_443196_hziz4pauo7uv7vi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_443196_hziz4pauo7uv7vi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_443196_hziz4pauo7uv7vi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@import url("base.css");
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+/* 头部开始 */
+header{
+	/* width: 976px; */
+	height: 40px;
+	background: #444444;
+	margin: 0 auto;
+}
+header a{
+	float: right;
+	line-height: 40px;
+	font-size: 10px;
+	color: #a8a8aa;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333333;
+}
+nav ul{
+	/* width: 976px; */
+	height: 44px;
+	background:#333333;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+	font-size: 12px;
+	line-height: 44px;
+	
+}
+nav ul li a{
+	color: #fff;
+}
+.nav-2 ul{
+	display: flex;
+	justify-content: space-between;
+}
+.nav-2 li{
+	font-size: 12px;
+	line-height: 44px;
+}
+.nav-2 li a{
+	color: #fff;
+}
+/* 头部结束 */
+/* 大屏幕开始 */
+.bannar{
+	width: 100%;
+	height: auto;
+	background: #f9f0eb;
+}
+.bannar-1{
+	width: 100%;
+	height: auto;
+	background: #f9f0eb;
+	overflow: hidden;
+}
+.bannar1{
+	width: 100%;
+	height: auto;
+	background: #f9f0eb;
+}
+.bannar-1-0{
+	width: 100%;
+	height: 60px;
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+.bannar-1-0 a{
+	color: #000;
+}
+.bannar-1-2{
+	width: 100%;
+	height: 31px;
+	margin-top: 12px;
+	font-size: 21px;
+	text-align: center;
+}
+.bannar-1-2 a{
+	color: #000;
+}
+.bannar-1-1{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 大屏幕结束 */
+/* 商品开始 */
+.shangpin{
+	width: 100%;
+	height: auto;
+	background: #f9f0eb;
+}
+.shangpin-1{
+	width: 100%;
+	height: auto;
+}
+.shangpin1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.shangpin-2{
+	width: 100%;
+	height: auto;
+	background: #f9f0eb;
+}
+.shangpin-2-1{
+	width: 100%;
+	height: auto;
+}
+.shangpin2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 60px;
+	background: #fafafa;
+}
+.sige{
+	width: 100%;
+	height: auto;
+	background: orange;
+}
+.sige-1{
+	display: block;
+	background: red;
+	border-right: 12px solid #fff;
+	float: left;
+}
+.sige:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+/* 商品结束 */
+/* 列表开始 */
+/* .liebiao{
+	width: 100%;
+	height: 412px;
+	background: #f2f2f2;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.liebiao-1{
+	width: 70%;
+	height: 286px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.liebiao-1-1{
+	width: 20%;
+	height: 204px;
+	background: #f2f2f2;
+	float: left;
+}
+.liebiao-1-1-1{
+	height: 20%;
+	background: #f2f2f2;
+	margin-top: 5px;
+}
+.liebiao-1-1-1 a{
+	color: #555555;
+	line-height: 20px
+}
+.liebiao-1-1-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-2{
+	width: 20%;
+	height: 246px;
+	float: left;
+}
+.liebiao-1-2-1{
+	height: 20%;
+	margin-top: 5px;
+}
+.liebiao-1-2-1 a{
+	color: #555555;
+	line-height: 20px;
+}
+.liebiao-1-2-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-3{
+	width: 20%;
+	height: 138px;
+	float: left;
+}
+.liebiao-1-4{
+	width: 20%;
+	height: 201px;
+	float: left;
+}
+.liebiao-1-5{
+	width: 20%;
+	height: 225px;
+	float: left;
+} */
+/* 列表结束 */
+/* .liebiao-xia{
+	width: 980px;
+	height: 109px;
+	background: #f2f2f2;
+	margin: 0 auto;
+}
+.liebiao-xia-1{
+	width: 980px;
+	height: 24px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-1 a{
+	color: #0070c9;
+}
+.liebiao-xia-1 a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.liebiao-xia-2{
+	margin-top: 10px;
+	color: #d6d6d6;
+}
+.liebiao-xia-2 a{
+	padding-left: 3px;
+	color: #555555;
+}
+.liebiao-xia-2 a:hover{
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-3{
+	margin-top: 5px;
+	color: #d6d6d6;
+}
+.liebiao-xia-3 a{
+	color: #d6d6d6;
+}
+.youxiajiao{
+	width: 43px;
+	height: 16px;
+	float: right;
+}
+.youxiajiao-left{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	background-image: url('../img/16.png');
+	float: left;
+}
+.youxiajiao a{
+	color: #555555;
+	float: left;
+} */
+/* 阈值 */
+/* 大于1024 */
+@media screen and (min-width: 1024px){
+	header main{
+	width: 976px;
+	}
+	nav ul{
+		width: 768px;
+	}
+	.nav-2{
+		display: none;
+	}
+	.bannar-1 li{
+	width: 100%;
+	height: 580px;
+	background: #f9f0eb;
+}
+	.bannar-1-1{
+	display: block;
+	width: 561px;
+	height: 395px;
+	margin: 0 auto;
+	background: url('../img/iphone_8_large.jpg') no-repeat center center;
+	background-size: 561px 395px;
+	margin-top: 125px;
+}
+.bannar-1-0{
+	width: 100%;
+	height: 60px;
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+.bannar-1-0 a{
+	color: #000;
+}
+.bannar-1-2{
+	width: 100%;
+	height: 31px;
+	margin-top: 12px;
+	font-size: 21px;
+	text-align: center;
+}
+.bannar-1-2 a{
+	color: #000;
+}
+.shangpin-1 li{
+	width: 100%;
+	height: 588px;
+	background: #fafafa;
+}
+	.shangpin-1-1{
+	display: block;
+	width: 909px;
+	height: 194px;
+	margin: 0 auto;
+	background: url('../img/iphone_x_large.jpg') no-repeat center center;
+	background-size: 909px 194px;
+	margin-top: 50px;
+}
+.bannar-1-3{
+	width: 182px;
+	height: 72px;
+	margin-top: 50px;
+	margin: 0 auto;
+	background: url('../img/watch_series_3_large.png') no-repeat center center;
+	margin-top: 20px;
+}
+.shangpin-2-1 li{
+	width: 100%;
+	height: 580px;
+	background: #fafafa;
+}
+.shangpin-1-2{
+	display: block;
+	width: 767px;
+	height: 341px;
+	margin: 0 auto;
+	background: url('../img/watch_medium.jpg') no-repeat center center;
+	background-size: 767px 341px;
+	margin-top: 50px;
+}
+.sige-1{
+	display: block;
+	width: 50%;
+	height: 598px;
+	background: #fff;
+}
+.sige-2{
+	width: 100%;
+	height: 598px;
+	overflow: hidden;
+	margin-top: 10px;
+	background: #fafafa;
+}
+.sige-1:nth-child(2n+1){
+	border-left: 6px solid #fff;
+}
+.shangpin-1-3{
+	display: block;
+	width: 516px;
+	height: 369px;
+	margin: 0 auto;
+	background: url('../img/ios_large.jpg') no-repeat center center;
+	background-size: 516px 369px;
+	margin-top: 30px;
+}
+.shangpin-1-4{
+	display: block;
+	width: 553px;
+	height: 392px;
+	margin: 0 auto;
+	background: url('../img/watchos_large.jpg') no-repeat center center;
+	background-size: 553px 392px;
+	margin-top: 30px;
+}
+.shangpin-1-5{
+	display: block;
+	width: 553px;
+	height: 392px;
+	margin: 0 auto;
+	background: url('../img/trade_up_large.jpg') no-repeat center center;
+	background-size: 1226px 580px;
+}
+.shangpin-1-6{
+	display: block;
+	width: 499px;
+	height: 292px;
+	margin: 0 auto;
+	background: url('../img/macos_high_sierra_large.jpg') no-repeat center center;
+	background-size: 499px 292px;
+	margin-top: 100px;
+}
+.liebiao{
+	width: 100%;
+	height: 412px;
+	background: #f2f2f2;
+	margin-top: 20px;
+	overflow: hidden;
+	font-size: 10px;
+}
+.liebiao-1{
+	width: 66%;
+	height: 286px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 10px;
+}
+.liebiao-1-1{
+	width: 20%;
+	height: 204px;
+	background: #f2f2f2;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-1 a{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-1-1{
+	height: 20%;
+	background: #f2f2f2;
+	margin-top: 5px;
+	font-size: 10px;
+}
+.liebiao-1-1-1 a{
+	color: #555555;
+	line-height: 20px;
+	font-size: 10px;
+}
+.liebiao-1-1-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-2{
+	width: 20%;
+	height: 246px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-2 a{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1{
+	height: 30%;
+	margin-top: 5px;
+	font-size: 10px;
+}
+.liebiao-1-2-1 a{
+	color: #555555;
+	line-height: 20px;
+	font-size: 10px;
+}
+.liebiao-1-2-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-3{
+	width: 20%;
+	height: 138px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-4{
+	width: 20%;
+	height: 201px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-5{
+	width: 20%;
+	height: 225px;
+	float: left;
+	font-size: 10px;
+}
+.liebia3{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1 .liebia3-1{
+	color: #000;
+	font-size: 10px;
+}
+.liebia4 {
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1 .liebia4-1{
+	color: #000;
+	font-size: 10px;
+}
+.liebia5 {
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-xia{
+	width: 980px;
+	height: 109px;
+	background: #f2f2f2;
+	margin: 0 auto;
+}
+.liebiao-xia-1{
+	width: 980px;
+	height: 24px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-1 a{
+	color: #0070c9;
+	font-size: 10px;
+}
+.liebiao-xia-1 a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.liebiao-xia-2{
+	margin-top: 10px;
+	color: #d6d6d6;
+}
+.liebiao-xia-2 a{
+	padding-left: 3px;
+	color: #555555;
+	font-size: 10px;
+}
+.liebiao-xia-2 a:hover{
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-3{
+	margin-top: 5px;
+	color: #d6d6d6;
+}
+.liebiao-xia-3 a{
+	color: #d6d6d6;
+	font-size: 10px;
+}
+.liebiao-xia-3 a:hover{
+	border-bottom: 1px solid #d6d6d6;
+}
+.youxiajiao{
+	width: 43px;
+	height: 16px;
+	float: right;
+}
+.youxiajiao-left{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	background-image: url('../img/16.png');
+	float: left;
+}
+.youxiajiao a{
+	color: #555555;
+	float: left;
+	font-size: 10px;
+}
+.bian{
+	display: none;
+}
+}
+/* 小于1024 */
+@media screen and (max-width: 1024px){
+	header main{
+	padding-right: 22px;
+	}
+	nav ul li a{
+	padding: 0 22px;
+	}
+	.nav-1{
+		display: block;
+	}
+	.nav-2{
+		display: none;
+	}
+	.bannar-1 li{
+	width: 100%;
+	height: 569px;
+	background: #f9f0eb;
+}
+	.bannar-1-1{
+	display: block;
+	width: 549px;
+	height: 388px;
+	background: blue;
+	margin: 0 auto;
+	background: url('../img/20171016115347.jpg') no-repeat center center;
+	background-size: 549px 388px;
+	margin-top: 125px;
+}
+.bannar-1-0{
+	width: 100%;
+	height: 48px;
+	margin-top: 50px;
+	font-size: 28px;
+	text-align: center;
+}
+.bannar-1-0 a{
+	color: #000;
+}
+.bannar-1-2{
+	width: 100%;
+	height: 26px;
+	margin-top: 12px;
+	font-size: 16px;
+	text-align: center;
+}
+.bannar-1-2 a{
+	color: #000;
+}
+.shangpin-1 li{
+	width: 100%;
+	height: 388px;
+	background: #fafafa;
+}
+	.shangpin-1-1{
+	display: block;
+	width: 704px;
+	height: 148px;
+	margin: 0 auto;
+	background: url('../img/iphone_x_medium.jpg') no-repeat center center;
+	background-size: 704px 148px;
+	margin-top: 50px;
+}
+.bannar-1-3{
+	width: 144px;
+	height: 56px;
+	margin-top: 50px;
+	margin: 0 auto;
+	background: url('../img/watch_series_3_large.png') no-repeat center center;
+	background-size: 144px 56px;
+	margin-top: 10px;
+}
+.shangpin--2-1 li{
+	width: 100%;
+	height: 580px;
+	background: #fafafa;
+}
+.shangpin-1-2{
+	display: block;
+	width: 762px;
+	height: 339px;
+	margin: 0 auto;
+	background: url('../img/watch_medium.jpg') no-repeat center center;
+	background-size: 762px 339px;
+	margin-top: 50px;
+}
+.sige-1{
+	display: block;
+	width: 50%;
+	height: 508px;
+	background: #fff;
+}
+.sige-2{
+	width: 100%;
+	height: 508px;
+	overflow: hidden;
+	margin-top: 10px;
+	background: #fafafa;
+}
+.sige-1:nth-child(2n+1){
+	border-left: 6px solid #fff;
+}
+.shangpin-1-3{
+	display: block;
+	width: 362px;
+	height: 261px;
+	margin: 0 auto;
+	background: url('../img/ios_large.jpg') no-repeat center center;
+	background-size: 362px 261px;
+	margin-top: 30px;
+}
+.shangpin-1-4{
+	display: block;
+	width: 381px;
+	height: 270px;
+	margin: 0 auto;
+	background: url('../img/watchos_medium.jpg') no-repeat center center;
+	background-size: 381px 270px;
+	margin-top: 30px;
+}
+.shangpin-1-5{
+	display: block;
+	width: 385px;
+	height: 218px;
+	/* margin: 0 auto; */
+	background: url('../img/trade_up_medium.png') no-repeat center center;
+	background-size: 385px 218px;
+	margin-top: 50px;
+}
+.shangpin-1-6{
+	display: block;
+	width: 332px;
+	height: 194px;
+	margin: 0 auto;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	background-size: 332px 194px;
+	margin-top: 50px;
+}
+.liebiao{
+	width: 100%;
+	height: 412px;
+	background: #f2f2f2;
+	margin-top: 20px;
+	overflow: hidden;
+	font-size: 10px;
+}
+.liebiao-1{
+	width: 80%;
+	height: 286px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 10px;
+}
+.liebiao-1-1{
+	width: 20%;
+	height: 204px;
+	background: #f2f2f2;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-1 a{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-1-1{
+	height: 20%;
+	background: #f2f2f2;
+	margin-top: 5px;
+	font-size: 10px;
+}
+.liebiao-1-1-1 a{
+	color: #555555;
+	line-height: 20px;
+	font-size: 10px;
+}
+.liebiao-1-1-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-2{
+	width: 20%;
+	height: 246px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-2 a{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1{
+	height: 20%;
+	margin-top: 5px;
+	font-size: 10px;
+}
+.liebiao-1-2-1 a{
+	color: #555555;
+	line-height: 20px;
+	font-size: 10px;
+}
+.liebiao-1-2-1 a:hover{
+	border-bottom: 1px solid #333333;
+}
+.liebiao-1-3{
+	width: 20%;
+	height: 138px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-4{
+	width: 20%;
+	height: 201px;
+	float: left;
+	font-size: 10px;
+}
+.liebiao-1-5{
+	width: 20%;
+	height: 225px;
+	float: left;
+	font-size: 10px;
+}
+.liebia3{
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1 .liebia3-1{
+	color: #000;
+	font-size: 10px;
+}
+.liebia4 {
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-1-2-1 .liebia4-1{
+	color: #000;
+	font-size: 10px;
+}
+.liebia5 {
+	color: #000;
+	font-size: 10px;
+}
+.liebiao-xia{
+	width: 80%;
+	height: 109px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	padding: 0 5px;
+	font-size: 10px;
+}
+.liebiao-xia-1{
+	width: 980px;
+	height: 24px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #555555;
+	padding: 0 5px;
+	font-size: 10px;
+	color: #d6d6d6;
+}
+.liebiao-xia-1 a{
+	color: #0070c9;
+	font-size: 10px;
+}
+.liebiao-xia-1 a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.liebiao-xia-2{
+	margin-top: 10px;
+	color: #d6d6d6;
+}
+.liebiao-xia-2 a{
+	padding-left: 3px;
+	color: #555555;
+	font-size: 10px;
+}
+.liebiao-xia-2 a:hover{
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-3{
+	margin-top: 5px;
+	color: #d6d6d6;
+	font-size: 10px;
+}
+.liebiao-xia-3 a{
+	color: #d6d6d6;
+	font-size: 10px;
+}
+.liebiao-xia-3 a:hover{
+	border-bottom: 1px solid #d6d6d6;
+}
+.youxiajiao{
+	width: 43px;
+	height: 16px;
+	float: right;
+	font-size: 10px;
+}
+.youxiajiao-left{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	background-image: url('../img/16.png');
+	float: left;
+	font-size: 10px;
+}
+.youxiajiao a{
+	color: #555555;
+	float: left;
+	font-size: 10px;
+}
+.bian{
+	display: none;
+}
+}
+@media screen and (max-width: 768px){
+	.nav-1{
+		display: none;
+	}
+	.nav-2{
+		display: block;
+	}
+	.bannar-1 li{
+	width: 100%;
+	height: 500px;
+	background: #f9f0eb;
+}
+	.bannar-1-1{
+	display: block;
+	width: 267px;
+	height: 357px;
+	background: #f9f0eb;
+	margin: 0 auto;
+	background: url('../img/iphone_8_small.jpg') no-repeat center center;
+	background-size: 267px 357px;
+	margin-top: 65px;
+}
+.bannar-1-0{
+	width: 100%;
+	height: 38px;
+	margin-top: 50px;
+	font-size: 18px;
+	text-align: center;
+}
+.bannar-1-0 a{
+	color: #000;
+}
+.bannar-1-2{
+	width: 100%;
+	height: 27px;
+	margin-top: 12px;
+	font-size: 17px;
+	text-align: center;
+}
+.bannar-1-2 a{
+	color: #000;
+}
+.shangpin-1 li{
+	width: 100%;
+	height: 500px;
+	background: #fafafa;
+}
+	.shangpin-1-1{
+	display: block;
+	width: 167px;
+	height: 333px;
+	margin: 0 auto;
+	background: url('../img/iphone_x_small.jpg') no-repeat center center;
+	background-size: 167px 333px;
+	margin-top: 20px;
+}
+.bannar-1-3{
+	width: 108px;
+	height: 46px;
+	margin-top: 50px;
+	margin: 0 auto;
+	background: url('../img/watch_series_3_large.png') no-repeat center center;
+	background-size: 108px 46px;
+	margin-top: 10px;
+}
+.shangpin--2-1 li{
+	width: 100%;
+	height: 580px;
+	background: #fafafa;
+}
+.shangpin-1-2{
+	display: block;
+	width: 302px;
+	height: 338px;
+	margin: 0 auto;
+	background: url('../img/watch_small.jpg') no-repeat center center;
+	background-size: 302px 338px;
+	margin-top: 50px;
+}
+.sige-1{
+	display: block;
+	width: 100%;
+	height: 524px;
+	background: #fff;
+}
+.sige-2{
+	width: 100%;
+	height: 524px;
+	overflow: hidden;
+	margin-top: 10px;
+	background: #fafafa;
+}
+.sige-1:nth-child(2n+1){
+	border-left: 12px solid #fff;
+}
+.shangpin-1-3{
+	display: block;
+	width: 420px;
+	height: 301px;
+	margin: 0 auto;
+	background: url('../img/ios_large.jpg') no-repeat center center;
+	background-size: 420px 301px;
+	margin-top: 30px;
+}
+.shangpin-1-4{
+	display: block;
+	width: 339px;
+	height: 240px;
+	margin: 0 auto;
+	background: url('../img/watchos_small.jpg') no-repeat center center;
+	background-size: 339px 240px;
+	margin-top: 30px;
+}
+.shangpin-1-5{
+	display: block;
+	width: 444px;
+	height: 262px;
+	margin: 0 auto;
+	background: url('../img/trade_up_small.png') no-repeat center center;
+	background-size: 444px 262px;
+	margin-top: 50px;
+}
+.shangpin-1-6{
+	display: block;
+	width: 348px;
+	height: 203px;
+	margin: 0 auto;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	background-size: 348px 203px;
+	margin-top: 30px;
+}
+.liebiao{
+	display: none;
+}
+.bian{
+	width: 100%;
+	height: 450px;
+	background: #f2f2f2;
+	margin-top: 10px;
+}
+.bian ul li{
+	padding: 8px 20px;
+}
+.bian ul li a{
+	border-bottom: 1px solid #a4a2a4;
+}
+.bian-1{
+	display: block;
+	width: 100%;
+	height: 24px;
+	background: #f2f2f2;
+}
+.bian a{
+	line-height: 24px;
+	color: #a4a2a4;
+}
+.bian-1 i{
+	float: right;
+}
+.liebiao-xia-11{
+	width: 100%;
+	height: 24px;
+	background: #f2f2f2;
+	padding: 10px 20px;
+	font-size: 10px;
+}
+.liebiao-xia-11 p{
+	color: #888888;
+	font-size: 10px;
+}
+.liebiao-xia-11 a{
+	color: #0070c9;
+	font-size: 10px;
+}
+.liebiao-xia-11 a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.youxiajiao1{
+	width: 43px;
+	height: 16px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 10px;
+}
+.youxiajiao1-left{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	background-image: url('../img/16.png');
+	float: left;
+	font-size: 10px;
+}
+.youxiajiao1 a{
+	color: #555555;
+	float: left;
+	padding-left: 2px;
+	line-height: 16px;
+	font-size: 10px;
+}
+.youxiajiao1 a:hover{
+	color: #000;
+}
+.liebiao-xia-22{
+	margin-top: 35px;
+	color: #d6d6d6;
+	/* float: left; */
+	margin-left: 18px;
+	font-size: 10px;
+}
+.liebiao-xia-22 a{
+	padding-left: 3px;
+	color: #555555;
+	float: left;
+	margin-top: 5px;
+	font-size: 10px;
+}
+.liebiao-xia-22 a:hover{
+	border-bottom: 1px solid #555555;
+}
+.liebiao-xia-33{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #d6d6d6;
+	font-size: 10px;
+}
+.liebiao-xia-33 a{
+	color: #d6d6d6;
+	font-size: 10px;
+}
+.liebiao-xia-33 a:hover{
+	border-bottom: 1px solid #d6d6d6;
+}
+.bian{
+	display: block;
+}
+}
